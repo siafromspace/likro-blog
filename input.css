@@ -2,13 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    width: 100vw;
+}
 #showcase {
     width: 100vw;
     height: 100vh;
     background: url('../img/background.jpg');
     background-repeat: no-repeat;
+    background-position: 100% 100%;
     background-size: 100% 100%;
     /* background-color: black; */
+}
+
+@media(max-height: 500px) {
+    #showcase {
+        height: 200vh;
+    }
 }
 .hamburger {
     cursor: pointer;
