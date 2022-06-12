@@ -17,7 +17,7 @@ body {
 
 @media(max-height: 500px) {
     #showcase {
-        height: 200vh;
+        height: 150vh;
     }
 }
 .hamburger {
